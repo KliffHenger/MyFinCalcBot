@@ -22,7 +22,7 @@ create table expense(
 insert into category (codename, name, is_base_expense, aliases)
 values
     ("products", "продукты", true, "еда"),
-    ("alcohol", "alco", true, "beer, пиво, водка, бухло, вино, wine, vodka, алкашка")
+    ("alcohol", "alco", true, "beer, пиво, водка, бухло, вино, wine, vodka, алкашка"),
     ("coffee", "кофе", true, "чай"),
     ("dinner", "обед", true, "столовая, ланч"),
     ("cafe", "кафе", true, "ресторан, рест, мак, макдональдс, макдак"),
